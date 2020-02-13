@@ -16,11 +16,12 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
     - Click **Service Credenrials** and then click  **View Credenrials** to view the service credentials.
     - Copy the `apikey` value and  the `url` values and save it for later !!!!
     
+    ![](../README_images/Tone_Analyzer_Cred.png)
 
 ## Clone the lab repo
 
 1. Go back to the **IBM Account Org** and find again your cluster , then click Action and choose Web Terminal 
-![](../README_images/Tone_Analyzer_Cred.png)
+![](../README_images/IBMAccountOrg.png)
 2. From your command line, run:
 
     ```shell
