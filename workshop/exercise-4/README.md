@@ -175,17 +175,44 @@ data:
   passphrase: "YWRtaW4="
 EOF
 ```
-2. Establish port forwarding from local port 20001 to the Kiali instance.
+
+2. Patch the existing tracing service to change it from a `ClusterIP` to a `NodePort` type.
 
     ```shell
-    istioctl dashboard kiali
+    kubectl patch svc kiali --type='json' -p '[{"op":"replace","path":"/spec/type","value":"NodePort"}]' -n istio-system
     ```
-![](../README_images/kiali.png) 
 
-3. Login with `admin` for both username and password.
-4. Select Graph and then choose `default` namespace. You should see a visual service graph of the various services in your Istio mesh.
-5. Use the `Edge Labels` dropdown and select `Traffic rate per second` to see the request rates as well.
-6. Kiali has a number of views to help you visualize your services. Click through the vairous tabs to explore the service graph, and the various views for workloads, applications, and services.
+3. Find the port to access the service
+
+    ```shell
+    $ kubectl get svc kiali -n istio-system
+    NAME      TYPE       CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
+    kiali   NodePort   172.21.36.204   <none>        80:32075/TCP   1d
+    ```
+
+    In this example, the port is 32075.
+
+4. Find the host to access the service
+
+    ```shell
+    $ ibmcloud cs workers <cluster_name>
+    OK
+    ID                                                 Public IP       Private IP    Machine Type         State    Status   Zone    Version   
+    kube-wdc07-cr1b3398b985d84e9b8e9544a91d61428a-w1   169.61.73.131   10.191.9.76   b2c.4x16.encrypted   normal   Ready    wdc07   1.11.8_1547   
+    kube-wdc07-cr1b3398b985d84e9b8e9544a91d61428a-w2   169.61.73.142   10.191.9.71   b2c.4x16.encrypted   normal   Ready    wdc07   1.11.8_1547
+    ```
+
+    Combine one of the public IPs and the port together and add `/kiali` to access the service. For example: `169.61.73.131:32075/kiali`
+
+5. Click on the web preview icon and select port 8084 to access the Kiali dashboard. Login with the following username/password: admin/admin.
+
+6. Click the "Graph" tab on the left side to see the a visual service graph of the various services in your Istio mesh. You may need to select a namespace in the dropdown.
+
+7. You can see request rates as well by clicking the "Edge Labels" tab and choosing "Traffic rate per second".
+
+Kiali has a number of views to help you visualize your services. Click through the various tabs to explore the service graph, and the various views for workloads, applications and services.
+
+![](../README_images/kiali.png) 
 
 ## Understand what happened
 
