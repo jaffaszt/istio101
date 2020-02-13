@@ -23,7 +23,7 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
 1. Go back to the **IBM Account Org** and find again your cluster , click on your cluster 
 ![](../README_images/IBMAccountOrg.png)
 
-2. From the cluster screen click on `Action` and choose Web Terminal 
+2. From the cluster screen click on `Action` and choose  `Web Terminal` 
 
 3. From your command line, run:
 
