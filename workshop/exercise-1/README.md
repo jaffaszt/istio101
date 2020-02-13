@@ -2,6 +2,10 @@
 
 You must already have a [cluster created](https://cloud.ibm.com/docs/containers?topic=containers-clusters#clusters_standard). Your cluster must have **3 or more worker nodes** with at least **4 cores and 16GB RAM**, and run Kubernetes version 1.16 or later.
 
+## If you use IBM Kubernetes Web Terminal you can skip to last step in exercise-1 to Clone the lab repo
+
+
+
 ## Install IBM Cloud Kubernetes Service command line utilities
 
 1.  Download and install the required CLI tools.
