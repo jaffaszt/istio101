@@ -1,4 +1,4 @@
 # Introduction to Istio
 
  
-[Presentation](IBMAccountOrg.png)
+[Presentation](101-Istio-Intro.pdf)
