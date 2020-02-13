@@ -204,7 +204,7 @@ EOF
 
     Combine one of the public IPs and the port together and add `/kiali` to access the service. For example: `169.61.73.131:32075/kiali`
 
-5. Click on the web preview icon and select port 8084 to access the Kiali dashboard. Login with the following username/password: admin/admin.
+5. Login with the following username/password: admin/admin.
 
 6. Click the "Graph" tab on the left side to see the a visual service graph of the various services in your Istio mesh. You may need to select a namespace in the dropdown.
 
