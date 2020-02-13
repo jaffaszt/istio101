@@ -25,9 +25,9 @@ Prior to workshop do the following
 
 !!!!!!  add ascreen shot here  !!!!!!!  
 Use :  
-Lab Key : oslab 
+      Lab Key : oslab 
 
-IBMid : your emailRegister to IBM Cloud  
+      IBMid : your emailRegister to IBM Cloud  
 
 
 
