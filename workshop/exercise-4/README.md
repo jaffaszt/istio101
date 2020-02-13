@@ -107,7 +107,7 @@ Read more about [Jaeger](https://www.jaegertracing.io/docs/)
 
     Combine one of the public IPs and the port together to access the service. For example: `169.61.73.131:32075`
 
-
+![](../README_images/grafana.png)
 
 4. Navigate to the `Istio Service Dashboard` by clicking on the Home menu on the top left, then Istio, then Istio Service Dashboard.
 
