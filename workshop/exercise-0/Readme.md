@@ -1,2 +1,2 @@
 
-[Register IBM Cloud]https://ibm.biz/Bdz5wv
+[Register IBM Cloud](https://ibm.biz/Bdz5wv)
