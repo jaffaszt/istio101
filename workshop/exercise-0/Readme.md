@@ -28,3 +28,5 @@ Lab Key : oslab
 IBMid : your emailRegister to IBM Cloud 
 
 
+
+### [Continue to Exercise 1 - Clone the lab repo and create Tone Analyzer service](../exercise-1/README.md)
