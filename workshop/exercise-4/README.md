@@ -73,15 +73,6 @@ You can read more about how [Istio mixer enables telemetry reporting](https://is
 
 5. Scroll to the bottom and click on **Find Traces** button to see traces.
 
-----------
-1. Launch the Jaeger dashboard:
-
-    ```shell
-    istioctl dashboard jaeger
-    ```
-2. From the **Services** menu, select either the **guestbook** or **analyzer** service.
-3. Scroll to the bottom and click on **Find Traces** button to see traces.
-4. Use Ctrl-C in the terminal to exit the port-foward when you are done.
 
 Read more about [Jaeger](https://www.jaegertracing.io/docs/)
 
