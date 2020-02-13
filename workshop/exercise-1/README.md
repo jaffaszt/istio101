@@ -20,9 +20,12 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
 
 ## Clone the lab repo
 
-1. Go back to the **IBM Account Org** and find again your cluster , click on your cluster and then click Action and choose Web Terminal 
+1. Go back to the **IBM Account Org** and find again your cluster , click on your cluster 
 ![](../README_images/IBMAccountOrg.png)
-2. From your command line, run:
+
+2. From the cluster screen click on `Action` and choose Web Terminal 
+
+3. From your command line, run:
 
     ```shell
     git clone https://github.com/IBM/istio101
