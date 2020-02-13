@@ -4,26 +4,11 @@ In this module, you will use the Managed Istio add-on to install Istio on your c
 
 Managed Istio is available as part of IBM Cloud™ Kubernetes Service. The service provides seamless installation of Istio, automatic updates and lifecycle management of control plane components, and integration with platform logging and monitoring tools.
 
-If Istio was not installed and enabled you can do that as described below 
+If Istio was not installed and enabled you can do that by Installing the Managed Istio Add on 
 ![](../README_images/IstionEnabled.png)
 
-# If you are using the IBM Kubernetes Web Terminal you should skip the steps 1 and 2 and go to step 3 Ensure that the `istio-*` Kubernetes services are deployed
 
-1. Download the `istioctl` CLI and add it to your PATH:
-   ```shell
-   curl -sL https://raw.githubusercontent.com/istio/istio/release-1.4/release/downloadIstioCtl.sh | sh -
-   ```
-   ```
-   export PATH=$PATH:$HOME/.istioctl/bin
-   ```
-
-2. Enable Managed Istio on your IKS cluster:
-
-    ```shell
-    ibmcloud ks cluster addon enable istio --cluster $MYCLUSTER
-    ```
-
-3. Ensure that the `istio-*` Kubernetes services are deployed before you continue. This might take up to 5 minutes.
+1. Ensure that the `istio-*` Kubernetes services are deployed before you continue. This might take up to 5 minutes.
 
     ```shell
     kubectl get svc -n istio-system
@@ -53,7 +38,7 @@ If Istio was not installed and enabled you can do that as described below
 
 **Note: If your istio-ingressgateway service IP is <pending>, confirm that you are using a standard/paid cluster. Free cluster is not supported for this lab.**
 
-1. Ensure the corresponding pods `istio-citadel-*`, `istio-ingressgateway-*`, `istio-pilot-*`, and `istio-policy-*` are all in **`Running`** state before you continue.
+2. Ensure the corresponding pods `istio-citadel-*`, `istio-ingressgateway-*`, `istio-pilot-*`, and `istio-policy-*` are all in **`Running`** state before you continue.
 
     ```shell
     kubectl get pods -n istio-system
