@@ -20,7 +20,7 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
 ## Clone the lab repo
 
 1. Go back to the **IBM Account Org** and find again your cluster , then click Action and choose Web Terminal 
-
+![](../README_images/guestbook1.png)
 2. From your command line, run:
 
     ```shell
