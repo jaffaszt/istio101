@@ -149,7 +149,7 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
     -  **-  MAKE SURE you are using your account and not the IBM Account!!!!!!!!!**
   
     - Click **Create**.
-    - Click **Show** to view the service credentials.
+    - Click **Service Credenrials** and then click  **View Credenrials** to view the service credentials.
     - Copy the `apikey` value and  the `url` values.
 
 
