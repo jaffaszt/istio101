@@ -149,6 +149,8 @@ Read more about [Grafana](http://docs.grafana.org/).
     ```
 
     Combine one of the public IPs and the port together to access the service. For example: `169.61.73.131:32075`
+    
+    ![](../README_images/prometheus.jpg)
 
 4. In the “Expression” input box, enter: `istio_request_bytes_count`. Click Execute and then select Graph.
 
