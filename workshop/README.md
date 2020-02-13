@@ -41,9 +41,3 @@ You should have a basic understanding of containers, IBM Cloud Kubernetes Servic
 - [Exercise 6 - Perform traffic management](exercise-6/README.md)
 - [Exercise 7 - Secure your service mesh](exercise-7/README.md)
 
-## Cleaning up the Workshop
-
-Script to uninstall `ibmcloud` CLI: [clean_your_local_machine.sh](cleanup/clean_your_local_machine.sh) and unset `KUBECONFIG`.
-
-Script to delete Istio and Guestbook: [clean_your_k8s_cluster.sh](cleanup/clean_your_k8s_cluster.sh).
-
