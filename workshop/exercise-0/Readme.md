@@ -23,10 +23,10 @@ Prior to workshop do the following
 [access to IBM Kubernetes  Cluster](https://ibm.biz/Bdz5wv)
 
 
-!!!!!!  add ascreen shot here  !!!!!!! 
-Use : 
-Lab Key : oslab
-IBMid : your emailRegister to IBM Cloud 
+!!!!!!  add ascreen shot here  !!!!!!!  
+Use :  
+Lab Key : oslab 
+IBMid : your emailRegister to IBM Cloud  
 
 
 
