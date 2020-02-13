@@ -19,8 +19,8 @@ Prior to workshop do the following
 
 [Register IBM Cloud](https://ibm.biz/Bdz5wv)
 
-# 2 Get access to Openshift Cluster
-[access to Openshift Cluster](https://ibm.biz/Bdz5wv)
+# 2 Get access to IBM Kubernetes Cluster
+[access to IBM Kubernetes  Cluster](https://ibm.biz/Bdz5wv)
 
 Use : 
 Lab Key : oslab
