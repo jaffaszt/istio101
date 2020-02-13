@@ -4,7 +4,7 @@ In this module, you will use the Managed Istio add-on to install Istio on your c
 
 Managed Istio is available as part of IBM Cloud™ Kubernetes Service. The service provides seamless installation of Istio, automatic updates and lifecycle management of control plane components, and integration with platform logging and monitoring tools.
 
-# If you are using the IBM Kubernetes Web Terminal you may go to step 3 Ensure that the `istio-*` Kubernetes services are deployed
+# If you are using the IBM Kubernetes Web Terminal you should skip the steps 1 and 2 and go to step 3 Ensure that the `istio-*` Kubernetes services are deployed
 
 1. Download the `istioctl` CLI and add it to your PATH:
    ```shell
