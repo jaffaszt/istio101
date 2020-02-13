@@ -13,6 +13,8 @@ Prior to workshop do the following
  2. in step 1 change the link according to the VCPI in Register to IBM Cloud   
  3. in step 2 change the link to get a cluster 
  4. in step 2 change lab key 
+ 5. whitelist
+ 6. wifi useres and passwords 
 -->
 
 # 1. Register to IBM Cloud 
