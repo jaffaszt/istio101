@@ -29,6 +29,7 @@ You should have a basic understanding of containers, IBM Cloud Kubernetes Servic
 
 ## Workshop setup
 
+- [Exercise 0 - Register to IBM Cloud and get a Kubernetes cluster ](exercise-0/README.md)
 - [Exercise 1 - Clone the lab repo and create Tone Analyzer service](exercise-1/README.md)
 - [Exercise 2 - Installing Istio](exercise-2/README.md)
 - [Exercise 3 - Deploying Guestbook sample application](exercise-3/README.md)
