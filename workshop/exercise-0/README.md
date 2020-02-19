@@ -9,7 +9,8 @@
 [access to IBM Kubernetes  Cluster](ynet.co.il)
 
 
-!!!!!!  add ascreen shot here  !!!!!!!  
+![](../README_images/oslab.png)
+
 Use :  
      Lab Key : `oslab`
  
