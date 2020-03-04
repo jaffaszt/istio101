@@ -3,13 +3,13 @@
 
 # 1. Register to IBM Cloud 
 
-[Register IBM Cloud](https://ibm.biz/Bdz5wv)
+[Register IBM Cloud](https://ibm.biz/Bdz5wn)
 
 # 2 Get access to IBM Kubernetes Cluster
-[access to IBM Kubernetes  Cluster](ynet.co.il)
+[access to IBM Kubernetes  Cluster](https://iksistio.mybluemix.net/)
 
 Use :  
-     Lab Key : `oslab`
+     Lab Key : `ikslab`
  
   IBMid : `your emailRegister to IBM Cloud`    
 
