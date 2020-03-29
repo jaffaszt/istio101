@@ -3,7 +3,7 @@
 
 # 1. Register to IBM Cloud 
 
-[Register IBM Cloud](https://ibm.biz/Bdz5wn)
+[Register IBM Cloud](https://ibm.biz/BdqZPj)
 
 # 2 Get access to IBM Kubernetes Cluster
 [access to IBM Kubernetes  Cluster](https://iksistio.mybluemix.net/)
