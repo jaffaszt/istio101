@@ -19,4 +19,12 @@ Use :
 
 ![](../README_images/oslab.png)
 
+
+After you hit submit, you will be given a cluster for the duration of the workshop.
+You should be given the result page showing the successful assignment.
+![](../README_images/reg2.png)
+
+When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate to IBM Org
+
+
 ### [Continue to Exercise 1 - Clone the lab repo and create Tone Analyzer service](../exercise-1/README.md)
