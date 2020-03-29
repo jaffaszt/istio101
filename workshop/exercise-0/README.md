@@ -26,5 +26,12 @@ You should be given the result page showing the successful assignment.
 
 When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate to IBM Org
 
+After you enter your Kubernetes Dashboard click Add-ons ( in the left) 
+
+![](../README_images/addons.png)
+
+Install the Managed Istio and the Kuberntes Terminal (this will take a few minutes ) 
+
+![](../README_images/install.png)
 
 ### [Continue to Exercise 1 - Clone the lab repo and create Tone Analyzer service](../exercise-1/README.md)
