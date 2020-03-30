@@ -24,10 +24,13 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
 ![](../README_images/IBMAccountOrg.png)
 2. From the cluster screen click on `Access` (on the left side of the screen) you will need this for the next step to gain acces to your cluster.
 3. We will use cloudhsell (cmd already ready for you with everything already pre-installed for you). To use cloudshell go to  [cloudshell link ](https://shell.cloud.ibm.com/)
-4. In the cloudshell copy and run steps 1 an 2 only from **YOUR**  `Access` screen .now you are ready to use the cloudhsell 
+4. In the cloudshell copy and run steps 1 an 2 only from **YOUR**  `Access` screen it will look somthing like this ..
+   
  ![](../README_images/gainaccess.png)
 
-5. From your command line, run:
+Now you are ready to use the cloudhsell 
+
+5. From your command line- cloudshell , run:
 
     ```shell
     git clone https://github.com/IBM/istio101
