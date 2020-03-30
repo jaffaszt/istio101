@@ -25,7 +25,10 @@ Watson Tone Analyzer detects the tone from the words that users enter into the G
 
 2. From the cluster screen click on `Action` and choose  `Web Terminal` 
 
-3. From your command line, run:
+2. From the cluster screen click on `Access` (on the left side of the screen) you will need this for the next step 
+3  To use cloudshell go to  [cloudshell link ](https://shell.cloud.ibm.com/)
+4. Run steps 1 an 2 only from the Access screen .now you are ready to use the cloudhsell 
+5. From your command line, run:
 
     ```shell
     git clone https://github.com/IBM/istio101
