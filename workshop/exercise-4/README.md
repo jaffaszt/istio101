@@ -57,10 +57,12 @@ You can read more about how [Istio mixer enables telemetry reporting](https://is
 
     In this example, the port is 32075.
 
-3. Find the host to access the service
+3. Find the host to access the service (where clustername is takend from the Access screen of the Kubernetes UI from steop 2 
+![](../README_images/clusterName.png)
+
 
     ```shell
-    $ ibmcloud cs workers <cluster_name>
+    $ ibmcloud ks workers --cluster <cluster_name>
     OK
     ID                                                 Public IP       Private IP    Machine Type         State    Status   Zone    Version   
     kube-wdc07-cr1b3398b985d84e9b8e9544a91d61428a-w1   169.61.73.131   10.191.9.76   b2c.4x16.encrypted   normal   Ready    wdc07   1.11.8_1547   
