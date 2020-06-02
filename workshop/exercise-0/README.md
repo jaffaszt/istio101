@@ -40,6 +40,8 @@ After you hit submit, you will be given a cluster for the duration of the worksh
 You should be given the result page showing the successful assignment.
 ![](../README_images/reg2.png)
 
+# Step 7 - Install Istio Add-on 
+
 When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate to IBM Org
 
 After you enter your Kubernetes Dashboard click Add-ons ( in the left) 
