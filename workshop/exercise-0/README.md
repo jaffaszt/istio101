@@ -1,5 +1,28 @@
 
+# Step 1 - sign up on IBM Cloud
 
+Sign up for IBM Cloud or log in here [Register IBM Cloud]https://ibm.biz/BdqZqf​
+
+
+Please fill out the signup form with an email and a password that you want to choose for your IBM Cloud account . 
+Then Click Next 
+
+# Step 2 - Verify your email
+
+You will get a verification code to your email, copy it and paste it to the verafication code field then click next .
+
+# Step 3 - Enter your Personal Information
+
+‌Enter your personal information , First and Last name and Country or Region , then Click Next .
+
+# Step 4 - Click Create Account 
+
+# Step 5 - Proceed to your account 
+
+scroll down  and click proceed . 
+
+Congratulations! You just signed up for IBM Cloud account. 
+Proceed to the next Lab 
 
 # 1. Register to IBM Cloud 
 
