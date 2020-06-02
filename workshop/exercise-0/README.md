@@ -47,7 +47,7 @@ When you sign up / log in to IBM Cloud, from the Dashboard you need to navigate 
 
 After you enter your Kubernetes Dashboard click Add-ons ( in the left) 
 
-![](../README_images/addons2.png) 
+![](../README_images/addons2 copy.png) 
 
 Install the Managed Istio and the Kuberntes Terminal (this will take a few minutes ) 
 
