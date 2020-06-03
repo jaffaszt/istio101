@@ -26,7 +26,7 @@ Congratulations! You just signed up for IBM Cloud account.
 
 
 # Step 6 - Get access to IBM Kubernetes Cluster
-[access to IBM Kubernetes  Cluster](https://ikskubeweb.mybluemix.net/)
+[access to IBM Kubernetes  Cluster](https://iksistio.mybluemix.net)
 
 Use :  
      Lab Key : `ikslab`
