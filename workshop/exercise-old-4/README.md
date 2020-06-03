@@ -1,5 +1,5 @@
 
-# Exercise 4 - Observe service telemetry: metrics and tracing
+# need some update as tools are not added with the addon Exercise 4 - Observe service telemetry: metrics and tracing
 
 ### Challenges with microservices
 
