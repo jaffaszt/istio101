@@ -1,7 +1,7 @@
 
 # Step 1 - sign up on IBM Cloud
 
-Sign up for IBM Cloud or log in here [Register IBM Cloud]https://ibm.biz/BdqZqf​
+Sign up for IBM Cloud or log in here [Register IBM Cloud]https://ibm.biz/BdqZPe
 ![](../README_images/sing1.png)
 
 Please fill out the signup form with an email and a password that you want to choose for your IBM Cloud account . 
